@@ -27,7 +27,7 @@ library(dplyr)
       rm(house)                                                 # get rid of the big data frame - save memory
 
     small.house <- rbind(day.one, day.two)                      # combine the two days into one dataframe for plotting
-      rm(day.one, day.two)                                      # get rid of day.one and day.two - same memory
+      rm(day.one, day.two)                                      # get rid of day.one and day.two - save memory
 
     png(file = "plot3.png", 
         width = 480, 
